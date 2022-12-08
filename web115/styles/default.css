@@ -6,6 +6,12 @@ html {
 	list-style-position : inside;
 }
 
+img {
+  	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
 h1, h3, h4 {
 	color : rgb(179,205,224);
 	background-color : rgb(1,31,75);
