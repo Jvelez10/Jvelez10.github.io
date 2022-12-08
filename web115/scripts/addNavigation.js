@@ -2,8 +2,7 @@ var pages = {
 	Home : "index.html",
 	Introduction : "introduction.html",
 	Contract : "contract.html",
-	Brand : "brand.html",
-	TOC : "toc.html"
+	Brand : "brand.html"
 };
 var leveNavlOffset = "";
 
