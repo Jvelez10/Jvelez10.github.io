@@ -119,3 +119,8 @@ footer div {text-align:center;}
 body{
       padding-top: 100px;
     }
+
+footer nav {
+	font-size: 100%;
+	text-align: center;
+}
