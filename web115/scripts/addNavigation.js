@@ -17,7 +17,7 @@ function addLogo(navigation)
 
 	a.setAttribute("href", logoLink); 
 	var headerTemp = document.createElement("h1");
-	headerTemp.appendChild(document.createTextNode("Joseph Velez's WEB115"));
+	headerTemp.appendChild(document.createTextNode("Joseph Velez's WEB115 | Silverbeam Industries"));
 	a.appendChild(headerTemp); 
 	logo.appendChild(a);
 	navigation.appendChild(logo);
