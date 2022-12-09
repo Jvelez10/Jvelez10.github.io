@@ -6,29 +6,26 @@
 	<link rel="stylesheet" href="styles/default.css">
 	<script src="scripts/fizzbuzz1.js"></script>
 	<script src="scripts/addNavigation.js"></script>
-	<script src="scripts/addFooter.js"></script>
 </head>
 
 <body>
+	<main>
+		<div data-include="components/addHeader.html"></div>
+		<h2 id="greeting">Welcome to Silverbeam Industries</h2>
+	
+		<form action="javascript:void(0);" method="post" onsubmit="fizzBuzz()">
+			<label for="firstName">First Name:</label><br>
+			<input type="text" id="firstName" name="first" placeholder="First Name"><br>
+			<label for="middleInitial">Middle Initial:</label><br>
+			<input type="text" id="middleInitial" name="middle" placeholder="M" maxlength="1"><br>
+			<label for="lastName">Last Name:</label><br>
+			<input type="text" id="lastName" name="last" placeholder="Last Name"><br>
+			<input type="submit" value="Submit">
+		</form>
 
-	<div data-include="components/addHeader.html"></div>
-	<script>addNavigation();</script>
-	<h2 id="greeting">Welcome to Silverbeam Industries</h2>
-
-<form action="javascript:void(0);" method="post" onsubmit="fizzBuzz()">
-	<label for="firstName">First Name:</label><br>
-	<input type="text" id="firstName" name="first" placeholder="First Name"><br>
-	<label for="middleInitial">Middle Initial:</label><br>
-	<input type="text" id="middleInitial" name="middle" placeholder="M" maxlength="1"><br>
-	<label for="lastName">Last Name:</label><br>
-	<input type="text" id="lastName" name="last" placeholder="Last Name"><br>
-	<input type="submit" value="Submit">
-</form>
-
-<p id="output">...</p>
-
-<script src="scripts/HTMLInclude.js"></script>
-<footer>
-	<script>addFooter();</script>
-</footer>
+		<p id="output">...</p>
+	</main>
+	<div data-include="components/footer.html"></div>
+	<script src="scripts/HTMLInclude.js"></script>
 </body>
+</html>
