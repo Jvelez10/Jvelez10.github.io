@@ -1,11 +1,11 @@
 var footerLinks = {
-	"Github" : "https://github.com/asimchi0",
-	"Github Page" : "https://asimchi0.github.io/",
-	"Github WEB215" : "https://asimchi0.github.io/web215/",
-	"Freecodecamp" : "https://www.freecodecamp.org/asimchi0",
-	"CodeAcademy" : "https://www.codecademy.com/profiles/asimchi0",
-	"JSFiddle" : "https://jsfiddle.net/user/asimchi0/fiddles/",
-	"LinkedIn Learning" : "https://www.linkedin.com/learning/?u=76141674"
+	"Github" : "https://github.com/jvelez10",
+	"Github Page" : "https://jvelez10.github.io/",
+	"Github Page WEB115" : "https://github.com/Jvelez10/Jvelez10.github.io",
+	"Freecodecamp" : "https://www.freecodecamp.org/Jvelez10",
+	"CodeAcademy" : "https://www.codecademy.com/profiles/Jvelez10",
+	"JSFiddle" : "https://jsfiddle.net/user/Jvelez10/fiddles/",
+	"LinkedIn Learning" : "https://www.linkedin.com/learning/me/my-library/in-progress?u=76141674"
 };
 var levelFooterOffset = "";
 
@@ -25,10 +25,10 @@ function addValidation(footer)
 	var validation = document.createElement("div");
 	var html = document.createElement("a");
 	html.setAttribute("href", "https://validator.w3.org/check?uri=" + location.href)
-	html.appendChild(addValImage(levelFooterOffset +"images/button_validation_html5.png", "Valid HTML 5"));
+	html.appendChild(addValImage(levelFooterOffset +"images/valid-html-blue.png", "Valid HTML 5"));
 	var css = document.createElement("a");
 	css.setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
-	css.appendChild(addValImage(levelFooterOffset + "images/button_validation_css.png", "Valid CSS"));
+	css.appendChild(addValImage(levelFooterOffset + "https://jigsaw.w3.org/css-validator/images/vcss-blue", "Valid CSS"));
 	validation.appendChild(html);
 	validation.appendChild(css);
 	footer.appendChild(validation)
