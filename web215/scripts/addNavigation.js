@@ -19,7 +19,7 @@ function addLogo(navigation) // adding logo (in this case just test with link to
 
 	a.setAttribute("href", logoLink); // setting ling to index page
 	var headerTemp = document.createElement("h1");
-	headerTemp.appendChild(document.createTextNode("Alexei's WEB215"));
+	headerTemp.appendChild(document.createTextNode("Joseph's WEB215"));
 	a.appendChild(headerTemp); // adding created elelemnts together
 	logo.appendChild(a);
 	navigation.appendChild(logo);
