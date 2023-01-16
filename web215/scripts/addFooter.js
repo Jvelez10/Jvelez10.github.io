@@ -37,7 +37,7 @@ function addValidation(footer)
 function addDesignBy(footer)
 {
 	var design = document.createElement("div");
-	design.appendChild(document.createTextNode("Page built by NoNameCorp"));
+	design.appendChild(document.createTextNode("Page built by Silverbeam Industries"));
 	footer.appendChild(design);
 }
 
